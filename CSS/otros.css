@@ -1,0 +1,144 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(192, 192, 192, 0.808);
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    border-bottom: 5px solid rgb(251, 255, 0);
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    font-family: 'Satisfy';
+    color: aliceblue;
+    float: left;
+    line-height: 60px;
+    cursor: default;
+}
+
+.logo h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logoImagen{
+    display: inline;
+}
+
+.menu{
+    float: right;
+    line-height: 60px;
+}
+
+.menu a{
+    font-family: 'Satisfy';
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    font-size: 20px;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+}
+
+.menu a:hover{
+    color: rgb(78, 78, 78);
+    border-bottom: 4px solid rgb(255, 215, 0);
+}
+
+.titulo{
+    margin: 2rem auto;
+    text-align: justify;
+    width: 80%;
+    height: 0;
+    font-size: 25px;
+    font-family: 'Prata';
+    text-shadow: 1px 1px 0 rgb(255, 251, 18),
+                 -1px -1px 0 white,
+                 1px -1px 0 rgba(255, 251, 40, 0.699),
+                 -1px 1px 0 white;
+    
+}
+
+.texto{
+    margin: 4rem auto ;
+    width: 70%;
+    height: 200px;
+    font-family: 'Prata';
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    z-index: 1;
+    margin-bottom: 20px;
+    
+}
+
+.letra-grande {
+    font-size: 25px; 
+    font-weight: bold; 
+}
+
+.mujer{
+    text-align: center;
+    clear: both;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.mujer img{
+    box-shadow: -12px 18px 25px rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 15px ;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    border-top: 2px solid rgb(251, 255, 0);
+    font-family: 'Satisfy';
+    width: 100%;
+    margin-top: auto;
+} 
+
+.almedio{
+    text-align: center;
+}
+
+.containerRedes{
+    text-align: center;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+
+.containerRedes img{
+
+    background-color: #ffe600;
+    border-radius: 50%;
+    margin-left: 15px;
+}

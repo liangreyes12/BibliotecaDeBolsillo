@@ -1,0 +1,168 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(192, 192, 192, 0.808);
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    border-bottom: 5px solid rgb(251, 255, 0);
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    font-family: 'Satisfy';
+    color: aliceblue;
+    float: left;
+    line-height: 60px;
+    cursor: default;
+}
+
+.logo h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logoImagen{
+    display: inline;
+}
+
+.menu{
+    float: right;
+    line-height: 60px;
+}
+
+.menu a{
+    font-family: 'Satisfy';
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    font-size: 20px;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+}
+
+.menu a:hover{
+    color: rgb(78, 78, 78);
+    border-bottom: 4px solid rgb(255, 215, 0);
+}
+
+.texto{
+    margin: 3rem auto;
+    width: 75%;
+    height: 440px;
+    font-family: 'Prata';
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    
+}
+
+.letra-grande {
+    font-size: 48px; 
+    font-weight: bold; 
+}
+
+.galeria {
+    
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.foto {
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.foto:last-child {
+    margin-right: 0;
+}
+
+.foto img {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 10px 7px 14px rgba(0, 0, 0, 0.5);
+}
+
+.titulo{
+    font-family: 'Satisfy';
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titulo a{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ffe600;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulo a:hover{
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    border-top: 2px solid rgb(251, 255, 0);
+    font-family: 'Satisfy';
+    width: 100%;
+    margin-top: auto;
+} 
+
+.almedio{
+    text-align: center;
+}
+
+.containerRedes{
+    text-align: center;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+
+.containerRedes img{
+
+    background-color: #ffe600;
+    border-radius: 50%;
+    margin-left: 15px;
+}
